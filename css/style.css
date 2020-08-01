@@ -1,0 +1,31 @@
+.title-text {
+    font-family: 'Broadway';
+    text-align: center;
+    background:#F2D58F; 
+    color:#A8574B;
+    padding:10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.body-text {
+    color:#A8574B;
+    font-family: 'JasmineUPC';
+    margin : 50px 200px;
+}
+
+.card{
+    margin-left: 200px;
+}
+
+.embed-responsive-item{
+    width: 500px;
+    height: 300px;
+}
+
+.table{
+    color:#A8574B;
+    font-family: 'JasmineUPC';
+}
