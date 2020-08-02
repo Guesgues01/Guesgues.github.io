@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/style.css">
+
+    
 </head>
 <body style="background-color:#E2D0DC; ">
 
@@ -19,73 +21,72 @@
         <h1>ตารางเรียน</h1>
     </div>
 
-        <table class="table table-bordered  table-dark" style="font-family: JasmineUPC;">
-            <thead>
-            <tr>
-                <th scope="col">วัน</th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-                <th scope="col"></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th scope="row">Mon</th>
-                <td>Seminar (01418497)
-                    <h4>08.00 - 11.00</h4>
-                </td>
-                <td>SA (01418321)
-                    <h4>12.30 - 16.30</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Tues</th>
-                <td>Web Tech (บรรยาย)
-                    <h4>08.00 - 10.00</h4>
-                </td>
-                <td>Web Tech (Lab)
-                    <h4>12.30 - 16.30</h4>
-                </td>
-                <td>Writing (01355202)
-                    <h4>16.30 - 18.30</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Wed</th>
-                <td>IP (01418641)
-                    <h4>08.00 - 09.30</h4>
-                </td>
-                <td>OS (01418331)
-                    <h4>10.00 - 12.00</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Thurs</th>
-                <td>Writing (01355202)
-                    <h4>16.30 - 18.30</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Fri</th>
-                <td>IP (01418641)
-                    <h4>08.00 - 09.30</h4>
-                </td>
-                <td>OS (01418331)
-                    <h4>10.00 - 12.00</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Sat</th>
-                <td>Northern Thai Folk Music (01385261)
-                    <h4>16.30 - 19.30</h4>
-                </td>
-            </tr>
-            <tr>
-                <th scope="row">Sun</th>
-            </tr>
-            </tbody>
-        </table>
+    <div style="margin-left: 750px;">
+        <form action=? method=post style="margin-top: 30px;">
+            <input name=docfile style="background-color: #E2D0DC; ">
+            <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+            <option value=''>Monday
+            <option value='08.00 - 11.00' >Seminar (01418497)
+            <option value='12.30 - 16.30'>SA (01418321)
+            </select>
+            </form>
+            
+        <form action=? method=post style="margin-top: 30px;">
+                <input name=docfile style="background-color: #E2D0DC;  ">
+                <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                <option value=''>Tuesday
+                <option value='08.00 - 10.00' >Web Tech (บรรยาย)
+                <option value='12.30 - 14.30'>Web Tech (Lab)
+                <option value='14.30 - 16.30'>Writing (01355202)
+                </select>
+                </form>
 
+        <form action=? method=post style="margin-top: 30px;">
+                    <input name=docfile style="background-color: #E2D0DC; ">
+                    <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                    <option value=''>Wednesday
+                    <option value='08.00 - 09.30' >IP (01418641)
+                    <option value='10.00 - 12.00'>OS (01418331)
+                    </select>
+                    </form>
+        
+        <form action=? method=post style="margin-top: 30px;">
+                        <input name=docfile style="background-color: #E2D0DC; ">
+                        <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                        <option value=''>Thursday
+                        <option value='16.30 - 18.30' >Writing (01355202)
+                        </select>
+                        </form>
+
+                        <form action=? method=post style="margin-top: 30px;">
+                            <input name=docfile style="background-color: #E2D0DC; ">
+                            <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                            <option value=''>Friday
+                                <option value='08.00 - 09.30' >IP (01418641)
+                                <option value='10.00 - 12.00'>OS (01418331)
+                            </select>
+                            </form>
+
+
+                            <form action=? method=post style="margin-top: 30px;">
+                                <input name=docfile style="background-color: #E2D0DC; ">
+                                <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                                <option value=''>Saturday
+                                <option value='16.30 - 19.30' >Northern Thai Folk Music (01385261)
+                                </select>
+                                </form>
+
+
+                                <form action=? method=post style="margin-top: 30px;">
+                                    <input name=docfile style="background-color: #E2D0DC; ">
+                                    <select name=file onclick=javascript:docfile.value=file.value; style="font-family:Segoe Print;">
+                                    <option value=''>Sunday
+                                    </select>
+                                    </form>
+
+  </div>  
+    
+       
     
 </body>
 </html>
